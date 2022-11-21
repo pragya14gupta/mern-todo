@@ -1,0 +1,44 @@
+# GET http://localhost:3001/todos
+
+# ###
+
+# POST http://localhost:3001/todo/new
+# Content-Type: application/json
+
+# {
+#     "text":"order 3 pasta"
+# }
+
+# ###
+
+# DELETE http://localhost:3001/todo/delete/637a49a6c452d4eec34def6f
+
+
+# ###
+
+# PUT http://localhost:3001/todo/update/6378bcc8ce6e2bf3f3fff777
+
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new 
+Content-Type: application/json
+
+{
+"text": "hleo there is  a new order"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/637b08f96b27b5ab389a729f
+
+###
+
+GET http://localhost:3001/todo/complete/637b0d7c8913bb8e3f1fc3e9
+
+###
+
+PUT http://localhost:3001/todo/update/637b0d7c8913bb8e3f1fc3e9 
+
+

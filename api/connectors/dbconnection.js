@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-// code for connecting database (time taking)
+
 const databaseconnection = async () => {
   try {
     
