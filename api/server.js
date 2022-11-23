@@ -52,7 +52,7 @@ app.get('/todo/complete/:id', async (req, res) => {
 
 	todo.complete = !todo.complete;
 
-	todo.save();
+	 
 
 	res.json(todo);
 })
